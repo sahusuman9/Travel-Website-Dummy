@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/js/bootstrap.js" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+
+    <!--Header and navbar-->
+    <header class="header">
+      <section class="home bg-info" id="home">
+        <nav class="navbar navbar-dark bg-info navbar-expand-lg">
+          <a href="#" class="navbar-brand d-inline-block align-text-top"
+            ><img src="./logo.png" height="60" width="60" />Travel Website</a
+          >
+          <div class="d-flex justify-content-end flex-fill px-5 mr-5">
+            <ul class="navbar-nav px-5 font-weight-bold">
+              <li><a href="#home" class="nav-link active">Home</a></li>
+              <li><a href="#" class="nav-link">About Us</a></li>
+              <li><a href="#" class="nav-link">Services</a></li>
+              <li><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mt-5 py-5">
+                    
+                    <h1>Travel Agency Website</h1>
+                    <p class="text-justify mt-3">
+                        We are a travel agency which enables our customers to plan and tour planned destinations with your loved ones at an affordable cost and a lot of benefits. We welcome you on our website which is very user friendly and easy to book. We have affordable rates and customised tour packages with amazing offers at famous tourist destinations, which will make your vacation a memorable one. 
+                    </p>
+                    <div class="container mt-5 ">
+                       <a href="https://youtu.be/bRCTrt_X4hY" class="btn-lg btn-dark text-decoration-none" target="_blank">Getting Started</a>
+                    </div>
+
+                    <div class="icons mt-4 ml-1">
+                       <h5 class="ml-3"><a href="https://www.instagram.com/" class="text-decoration-none" target="_blank"><i class="bi bi-instagram text-dark"></i>&nbsp;&nbsp;</a>
+                        <a href="https://www.facebook.com/login.php" class="text-decoration-none" target="_blank"><i class="bi bi-facebook text-dark"></i>&nbsp;&nbsp;</a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den-in" class="text-decoration-none" target="_blank"><i class="bi bi-twitter text-dark"></i>&nbsp;&nbsp;</a>
+                        <a href="https://www.youtube.com/" class="text-decoration-none" target="_blank"><i class="bi bi-youtube text-dark"></i></a></h5>
+                    </div>
+                </div>
+                
+
+            
+                    <div class="col-6">
+                    
+                        <div class="carousel slide mb-5 mt-5" data-ride="carousel">
+                            <div class="carousel-inner rounded">
+                                <div class="carousel-item active">
+                                    <img src="./images/s1.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/s2.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/s3.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/s4.jpg" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/s5.jpg" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+    </header>
+
+
+
+
+    <script>
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    </script>
+  </body>
+</html>
