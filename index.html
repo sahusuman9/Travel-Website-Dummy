@@ -19,7 +19,7 @@
 
     <!--Header and navbar-->
     <header class="header">
-      <section class="home bg-info" id="home">
+      <section class="home bg-info container-fluid" id="home">
         <nav class="navbar navbar-dark bg-info navbar-expand-lg">
           <a href="#" class="navbar-brand d-inline-block align-text-top"
             ><img src="./logo.png" height="60" width="60" />Travel Website</a
@@ -28,7 +28,7 @@
             <ul class="navbar-nav px-5 font-weight-bold">
               <li><a href="#home" class="nav-link active">Home</a></li>
               <li><a href="#about" class="nav-link">About</a></li>
-              <li><a href="#" class="nav-link">Services</a></li>
+              <li><a href="#services" class="nav-link">Services</a></li>
               <li><a href="#" class="nav-link">Contact Us</a></li>
             </ul>
           </div>
@@ -88,7 +88,7 @@
 
     <!--About section-->
 
-    <section class="about bg-dark id="about">
+    <section class="about bg-dark container-fluid" id="about">
        
             <div class="row">
                 <div class="col-6 mt-5 mb-5 px-5">
@@ -96,8 +96,12 @@
                 </div>
     
                 <div class="col-6 text-justify">
-                    <h5 class="text-white mt-5 ml-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> ABOUT US</h5>
+
+                    <h5 class="mt-5 ml-3" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(95, 233, 243);"><i class="bi bi-arrow-up-right-square"></i> ABOUT US</h5>
                     <P><h1 class="text-white text-justify ml-3">Our team comes with experience and creativity with great suggestions.</h1></P>
+
+
+                    <!--Tabs-->
 
                     <ul class="nav nav-pills mt-4" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -110,7 +114,9 @@
                           <button class="nav-link ml-3" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">What We Provide</button>
                         </li>
                       </ul>
-                      <div class="tab-content" id="pills-tabContent">
+
+                    <div class="tab-content" id="pills-tabContent">
+
                         <div class="tab-pane fade show active mt-3 " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                             <div class="card" style="width: 40rem; height: 22rem; background-color:rgb(65, 213, 232)">
                                 <div class="card-body">
@@ -118,8 +124,8 @@
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sunt veritatis temporibus, voluptas similique, magnam labore repellat sit corrupti sequi voluptatum vero tempore omnis aspernatur molestias, aut expedita. Consequuntur, voluptates! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam eos repudiandae expedita cum reiciendis necessitatibus ut. Delectus ex architecto quas sed reiciendis pariatur aspernatur dolorum fugit deleniti, cumque perferendis. Tempore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus quod illo dolor natus harum vel labore reprehenderit asperiores temporibus laudantium. Ex eligendi ullam numquam id facilis quam eaque dicta fuga?</p>
                                 </div>
                             </div>
-                            
                         </div>
+
                         <div class="tab-pane fade mt-3" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                             <div class="card" style="width: 40rem; height: 22rem; background-color:rgb(65, 213, 232)">
                                 <div class="card-body">
@@ -128,6 +134,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="tab-pane fade mt-3" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                             <div class="card" style="width: 40rem; height: 22rem; background-color:rgb(65, 213, 232)">
                                 <div class="card-body">
@@ -136,19 +143,219 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
+
+                    </div>
                 </div>
-    
             </div>
-       
-       
+        </section>
+
+
+        <!--Services Section-->
+
+        <section class="services bg-info container-fluid" id="services">
+            <div class="py-5">
+                <h3 class="text-center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><i class="bi bi-tags"></i> SERVICES AND PRICING</h3>
+            </div>
+            
+
+            <div class="row" style="margin-left: 210px;">
+
+                <div class="col-4 mt-3">
+                    <div class="card px-0 py-0" style="width: 22rem;">
+                        <img src="./images/c1.jpg" class="card-img-top" style="height: 250px; width: 350px;">
+                        <div class="card-body bg-dark">
+                          <h5 class="card-title text-white">BARCELONA</h5>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn bg-info text-black font-weight-bold">₹ 150000</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mt-3">
+                    <div class="card px-0 py-0" style="width: 22rem;">
+                        <img src="./images/c2.jpg" class="card-img-top" style="height: 250px; width: 350px;">
+                        <div class="card-body bg-dark">
+                          <h5 class="card-title text-white">PERU</h5>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn bg-info text-black font-weight-bold">₹ 150000</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mt-3">
+                    <div class="card px-0 py-0" style="width: 22rem;">
+                        <img src="./images/c3.jpg" class="card-img-top" style="height: 250px; width: 350px;">
+                        <div class="card-body bg-dark">
+                          <h5 class="card-title text-white">MACHU PICCHU</h5>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn bg-info text-black font-weight-bold">₹ 150000</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-5" style="margin-left: 210px;">
+
+                <div class="col-4 mb-5">
+                    <div class="card px-0 py-0" style="width: 22rem;">
+                        <img src="./images/c4.jpg" class="card-img-top" style="height: 250px; width: 350px;">
+                        <div class="card-body bg-dark">
+                          <h5 class="card-title text-white">BALI</h5>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn bg-info text-black font-weight-bold">₹ 15000</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-5">
+                    <div class="card px-0 py-0" style="width: 22rem;">
+                        <img src="./images/c5.jpg" class="card-img-top" style="height: 250px; width: 350px;">
+                        <div class="card-body bg-dark">
+                          <h5 class="card-title text-white">NEW YORK</h5>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn bg-info text-black font-weight-bold">₹ 150000</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-5">
+                    <div class="card px-0 py-0" style="width: 22rem;">
+                        <img src="./images/c6.jpg" class="card-img-top" style="height: 250px; width: 350px;">
+                        <div class="card-body bg-dark">
+                          <h5 class="card-title text-white">SPAIN</h5>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn bg-info text-black font-weight-bold">₹ 150000</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--Contact-->
+
+            <section class="section bg-dark container-fluid" id="section">
+
+                <div>
+                    <h1 class="text-center py-5" style="color: aqua;"><i class="bi bi-envelope-at"></i> CONTACT US</h1>
+                </div>
+              
+                
+
+                    <div class="row">
         
+                        <div class="col-6 px-5 mb-5 mt-3">
         
-    </section>
+                                <legend class="text-white">Send Us An Email</legend>
+        
+                                <form action="https://formspree.io/f/mzblbknl" method="post">
+        
+                                    <div class="row">
+            
+                                        <div class="col-4">
+                                        
+                                            <div class="form-group text-white" >
+                                                <label>Name </label>
+                                                <input placeholder="Enter Your Name" name="name" type="text" class="form-control bg-info text-dark">
+                                            </div>
+                                            
+                                        </div>
+                
+                                        <div class="col-4">
+                                            
+                                            <div class="form-group text-white" >
+                                                <label>Email </label>
+                                                <input placeholder="Enter Your Email" name="email" type="email" class="form-control bg-info text-dark">
+                                            </div>
+                                            
+                                        </div>
+                
+                                        <div class="col-4">
+                                            
+                                            <div class="form-group text-white" >
+                                                <label>Phone</label>
+                                                <input placeholder="Enter Your Phone Number" name="phone" type="number" class="form-control bg-info text-dark">
+                                            </div>
+                                            
+                                        </div>
+            
+                                    </div>
+            
+                                    <br>
+            
+                                    <div class="row">
+            
+                                        <div class="col-8">
+                                            <div class="form-group text-white" >
+                                                <label>Subject</label>
+                                                <input placeholder="Enter Subject" name="subject" type="text" class="form-control bg-info text-dark">
+                                            </div>
+                                        </div>
+            
+                                        <div class="col-4">
+                                            <div class="form-group text-white" >
+                                                <label>Services</label>
+                                                <div>
+                                                    <select name="select" class="form-control bg-info text-dark">
+                                                        <option class="active">--Select One--</option>
+                                                        <option>1-Week Package</option>
+                                                        <option>Family Package</option>
+                                                        <option>1-Month Package</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+            
+                                    <br>
+            
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="foem-group text-white">
+                                                <label>Message</label>
+                                                <div>
+                                                    <textarea placeholder="Enter Your Message" name="textarea" cols="30" rows="8" class="form-control bg-info text-dark"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <br>
+            
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="form-group">
+                                                <input type="submit" value="SUBMIT" class="form-control btn-info text-dark">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+            
+                                </form>
+        
+                        </div>
+        
+                        <div class="col-6 mb-5 mt-3">
+        
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4728423525276!2d72.85030947614474!3d19.174539248869827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7aaa1b531d3%3A0x2ed3f805e337ba8d!2sSheetal%20Standard%20Batteries!5e0!3m2!1sen!2sin!4v1688030230955!5m2!1sen!2sin" width="900" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                        </div>
+        
+                    </div>
+
+            </section>
 
 
+            <!--Footer-->
 
-
+            <section class="footer container-fluid bg-info py-1" id="footer">
+                    <h6><p class="text-center text-white mt-2">Copyright &copy; 2023 by Suman Kumar Sahu | All Rights Reserved.</p></h6>
+            </section>
 
 
     <script>
